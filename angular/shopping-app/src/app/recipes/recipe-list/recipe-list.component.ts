@@ -7,7 +7,7 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-	recipes: Recipe[] = [ new Recipe('Pasta','Pasta Recipe','https://www.aspicyperspective.com/wp-content/uploads/2017/02/best-italian-pasta-salad-13.jpg' ) ];
+	recipes: Recipe[] = [ new Recipe('Pasta','Pasta Recipe','https://www.aspicyperspective.com/wp-content/uploads/2017/02/best-italian-pasta-salad-13.jpg' )];
 	
 
   constructor() { }
